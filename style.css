@@ -1,4 +1,27 @@
-body {
-  background-color: #f2f2f2;
-  font-family: sans-serif;
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes left and right to edges */
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 40px;
+  box-shadow: 2px 1px 2px #eee;
+  box-sizing: border-box;
+}
+
+.navbar a {
+  color:rgba(144, 143, 143, 0.959);
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px; /* Adds space between About, Home, Contact */
 }
