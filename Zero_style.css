@@ -42,4 +42,24 @@
   width: 80%;
 
 }
+.Fimag{
+  text-align: center;
+}
+h1,h2{
+  text-align: center;
+}
+h2{
+  font-family:'Times New Roman', Times, serif ;
+  font-weight: lighter;
+}
+.button{
+  background-color: rgb(34, 118, 227);
+  color: #ffffff;
+  border: 1px solid black;
+  padding:12px;
+  text-align: center;
 
+}
+.button:hover{
+  background-color: black;
+}
